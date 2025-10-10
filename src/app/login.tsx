@@ -12,7 +12,7 @@ export default function Home() {
     console.log("Password:", password);
     setEmail("");
     setPassword("");
-  };
+  }; 
 
   return (
     <div className="font-jakarta text-xl flex min-h-screen items-center flex-col gap-4 justify-center bg-pink-100 bg-[url('/background_image.svg')] ">

@@ -94,7 +94,7 @@ export default function Page() {
                             src="side_arrow.png"
                             alt="right arrow"
                             className=" absolute top-72 right-55"
-
+ 
                         />
                     </div>
                 </form>

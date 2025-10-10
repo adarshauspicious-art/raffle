@@ -45,7 +45,7 @@ export default function Page() {
                                 width={20}
                                 height={20}
                                 className="absolute top-3 left-2 "
-                            />
+                            /> 
                         </div>
                         <div className="relative mb-3 flex flex-col gap-4">
                             <input
