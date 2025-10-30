@@ -29,7 +29,7 @@ export default function Page() {
                     <p className="text-black text-center">Join thrilling raffles for gift cards, gadgets, and more — starting at just $1.</p>
                     <p className="text-black text-center"> Even if you don’t win, you earn points toward guaranteed rewards.</p>
                 </div>
-                <button className="bg-red-600 mt-10 text-black w-35 py-2 border rounded-3xl border-red-300   ">
+                <button className="bg-red-600 mt-10 text-black w-35 py-2 border rounded-3xl border-red-300   " onClick={() => console.log("Button: Browse Raffle ")}>
                     Browse Raffle
                 </button>
             </section>
@@ -61,32 +61,41 @@ export default function Page() {
                 </div>
             </section>
 
-            <footer className=" bg-[url('/footer.svg')] relative mt-10 py-10 px-10">
+            <footer className="relative w-full mt-10 bg-cover  bg-[url('/footer.svg')] text-white px-10 py-12">
+                <p className="text-center mb-8 mt-20">
+                    Win amazing prizes with fair draws, secure payments, and trusted raffles—all in one place.
+                </p>
 
-                <p className="text-center mt-50 ">Win amazing prizes with fair draws, secure payments, and trusted raffles—all in one place.</p>
-
-                <div className=" flex justify-center gap-30 mb-6">
-                    <a href="#" className="text-center mt-5 no-underline hover:underline">Home</a>
-                    <a href="#" className="text-center mt-5 no-underline hover:underline">Raffles</a>
-                    <a href="#" className="text-center mt-5 no-underline hover:underline">Completed</a>
-                    <a href="#" className="text-center mt-5 no-underline hover:underline">Reedeems Points</a>
-                    <a href="#" className="text-center mt-5 no-underline hover:underline">About</a>
+                <div className="flex justify-center gap-8 mb-6">
+                    <a href="#" className="text-center no-underline hover:underline">Home</a>
+                    <a href="#" className="text-center no-underline hover:underline">Raffles</a>
+                    <a href="#" className="text-center no-underline hover:underline">Completed</a>
+                    <a href="#" className="text-center no-underline hover:underline">Redeem Points</a>
+                    <a href="#" className="text-center no-underline hover:underline">About</a>
                 </div>
 
-                
-                <hr className="border-t w-90 ml-50 mr-200 border-gray-300 mb-4" />
-                <div className="flex justify-around gap-6 text-sm">
-                    <a href="#"><img src="/fb_logo.png" alt="facebook logo" className="w-5 h-5"/>  Facebook</a>
-                    <a href="#"><img src="/isnta_logo.png" alt="instagram logo" className="w-5 h-5"/>Instagram</a>
-                    <a href="#"><img src="/twitter_logo.png" alt="Twitter logo" className="w-5 h-5"/>Twitter</a>
-                    <a href="#"><img src="/Pinterset_logo.png" alt="facebook logo" className="w-5 h-5"/>Pinterest</a>
+                <hr className="border-t border-gray-300 my-6 w-3/4 mx-auto" />
+
+                <div className="flex justify-center gap-8 text-sm">
+                    <a href="#" className="flex items-center gap-2">
+                        <img src="/fb_logo.png" alt="Facebook logo" className="w-5 h-5" /> Facebook
+                    </a>
+                    <a href="#" className="flex items-center gap-2">
+                        <img src="/isnta_logo.png" alt="Instagram logo" className="w-5 h-5" /> Instagram
+                    </a>
+                    <a href="#" className="flex items-center gap-2">
+                        <img src="/twitter_logo.png" alt="Twitter logo" className="w-5 h-5" /> Twitter
+                    </a>
+                    <a href="#" className="flex items-center gap-2">
+                        <img src="/Pinterset_logo.png" alt="Pinterest logo" className="w-5 h-5" /> Pinterest
+                    </a>
                 </div>
-                
 
                 <p className="text-xs text-gray-300 mt-8 text-center">
                     © 2024 RaffleHut Company. All rights reserved.
                 </p>
             </footer>
+
         </div>
     );
 }

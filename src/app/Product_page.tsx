@@ -226,7 +226,7 @@ export default function Page() {
 
                         <p className="text-[#464646] mt-10   ">Good concept : You can buy tickets, the prizes (laptop, gadgets) look attractive. But I did feel some friction — the site asked me to register before buying</p>
 
-                        <div className="w-95 h-[0.5] bg-gray-300 mt-5 "></div>
+                        <div className="w-90 h-[0.5] bg-gray-300 mt-5 "></div>
 
                         <div className="w-13 h-13 bg-red-600 flex flex justify-center items-center  rounded rounded-full mt-4 text-xl">MG</div>
 
@@ -344,12 +344,12 @@ export default function Page() {
                         <img src="/twitter_logo.png" alt="Twitter logo" className="w-5 h-5" /> Twitter
                     </a>
                     <a href="#" className="flex items-center gap-2">
-                        <img src="/Pinterset_logo.png" alt="Pinterest logo" className="w-5 h-5" /> Pinterest
+                        <img src="/Pinterset_logo.png" alt="Pinterest logo" className="w-20 h-20" /> Pinterest
                     </a>
                 </div>
 
                 <p className="text-xs text-gray-300 mt-8 text-center">
-                    © 2024 RaffleHut Company. All rights reserved.
+                   Copyright © 2024 rafflehut Company. All rights reserved.
                 </p>
             </footer>
 
