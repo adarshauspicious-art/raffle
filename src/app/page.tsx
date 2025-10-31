@@ -109,10 +109,10 @@ export default function Page() {
                     {/*  div of Active Raffles */}
                     <div className="w-70 h-84 bg-white shadow ml-20 border rounded-2xl mt-5 relative">
                         <img src="product_page/Product Frame .png" alt="" className="p-4 border rounded-2xl" />
+                        {/*  Progress bar */}
                         <div className="w-40 h-1 bg-gray-300 mt-3 ml-5 rounded-2xl text-sm ">
                             <div className="w-25 h-1 bg-red-600 rounded-2xl "><p className="text-red-500 ml-50 text-sm mt-0">60/100</p></div>
                         </div>
-                        {/*  Progress bar */}
                         <p className="text-bold text-red-600 ml-5 mt-2 text-lg"><b>Name Of The Raffle </b>
                         </p>
                         <p className="text-black px-5">$ 1.00 <span className="text-sm text-[#4E4E4E]"> Only</span>
@@ -131,10 +131,10 @@ export default function Page() {
 
                    <div className="w-70 h-84 bg-white shadow ml-20 border rounded-2xl mt-5 relative">
                         <img src="product_page/Product Frame .png" alt="" className="p-4 border rounded-2xl" />
+                        {/*  Progress bar */}
                         <div className="w-40 h-1 bg-gray-300 mt-3 ml-5 rounded-2xl text-sm ">
                             <div className="w-25 h-1 bg-red-600 rounded-2xl "><p className="text-red-500 ml-50 text-sm mt-0">60/100</p></div>
                         </div>
-                        {/*  Progress bar */}
                         <p className="text-bold text-red-600 ml-5 mt-2 text-lg"><b>Name Of The Raffle </b>
                         </p>
                         <p className="text-black px-5">$ 1.00 <span className="text-sm text-[#4E4E4E]"> Only</span>
@@ -152,10 +152,10 @@ export default function Page() {
                     {/*  div of Active Raffles */}
                     <div className="w-70 h-84 bg-white shadow ml-20 border rounded-2xl mt-5 relative">
                         <img src="product_page/Product Frame .png" alt="" className="p-4 border rounded-2xl" />
+                        {/*  Progress bar */}
                         <div className="w-40 h-1 bg-gray-300 mt-3 ml-5 rounded-2xl text-sm ">
                             <div className="w-25 h-1 bg-red-600 rounded-2xl "><p className="text-red-500 ml-50 text-sm mt-0">60/100</p></div>
                         </div>
-                        {/*  Progress bar */}
                         <p className="text-bold text-red-600 ml-5 mt-2 text-lg"><b>Name Of The Raffle </b>
                         </p>
                         <p className="text-black px-5">$ 1.00 <span className="text-sm text-[#4E4E4E]"> Only</span>
@@ -173,10 +173,10 @@ export default function Page() {
                     {/*  div of Active Raffles */}
                      <div className="w-70 h-84 bg-white shadow ml-20 border rounded-2xl mt-5 relative">
                         <img src="product_page/Product Frame .png" alt="" className="p-4 border rounded-2xl" />
+                        {/*  Progress bar */}
                         <div className="w-40 h-1 bg-gray-300 mt-3 ml-5 rounded-2xl text-sm ">
                             <div className="w-25 h-1 bg-red-600 rounded-2xl "><p className="text-red-500 ml-50 text-sm mt-0">60/100</p></div>
                         </div>
-                        {/*  Progress bar */}
                         <p className="text-bold text-red-600 ml-5 mt-2 text-lg"><b>Name Of The Raffle </b>
                         </p>
                         <p className="text-black px-5">$ 1.00 <span className="text-sm text-[#4E4E4E]"> Only</span>
